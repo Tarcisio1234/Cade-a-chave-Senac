@@ -1,4 +1,0 @@
-(Footer)
-
-Ícones de site: 32px
-Ícones de "utilitários": 24px
