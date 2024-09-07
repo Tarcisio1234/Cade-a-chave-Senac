@@ -1,0 +1,1 @@
+O Cadê a Chave é um sistema desenvolvido para o Senac Juiz de Fora com o objetivo de melhorar o gerenciamento de chaves do local. O projeto será utilizado pelos profissionais da instituição e foi feito por Tarcísio Alves (eu mesmo), Gabriel Marota, Igor Aparecida e Lucina do Carmo.
