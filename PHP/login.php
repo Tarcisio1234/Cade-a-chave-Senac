@@ -9,7 +9,7 @@ if(isset($_POST['logar'])){
     if(strlen($_POST['cpRa'])==0){
         echo "<script>
             alert('Preencha o campo de identificação')
-            window.location.href= '../index.php'
+            window.location.href= '../index.html'
             </script>";
          
         //echo "Preencha o campo email.";
@@ -17,11 +17,12 @@ if(isset($_POST['logar'])){
     else if(strlen($_POST['cpSenha'])==0){
         echo "<script>
                 alert('Preencha o campo senha')
-                window.location.href= '../index.php'
+                window.location.href= '../index.html'
                 </script>";
         //echo "Preencha o campo senha.";
     }
     else{
+        // caso a senha esteja correta ele ira inviar para o menu
         $stmt = $conexao->prepare("select ra,idusuario, nome, gerencia from usuario where senha = ? and ra = ?");
         $stmt->bind_param("ss", $senha, $ra);
         $stmt->execute();
@@ -41,7 +42,7 @@ if(isset($_POST['logar'])){
         else{
             echo "<script>
                 alert('Identificação ou Senha incorretos')
-                window.location.href= '../index.php'
+                window.location.href= '../index.html'
                 </script>";
             exit;
         }

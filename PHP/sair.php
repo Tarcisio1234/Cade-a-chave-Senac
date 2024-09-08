@@ -7,6 +7,6 @@
         );
     }
     session_destroy();
-    header("Location: ../VIEW/login.php");
+    header("Location: ../index.html");
     exit();
 ?>

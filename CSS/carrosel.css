@@ -9,7 +9,7 @@
   .container-slider {
     display: flex;
     width: 100%;
-    min-height: 75vh;
+    min-height: 450px;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 885px;
+    width: 585px;
   }
  
   .slider {

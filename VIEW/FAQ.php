@@ -3,7 +3,7 @@
     if (isset($_SESSION['nome'])) {
         $nomeUsuario = $_SESSION['nome'];
     } else {
-        header("location: login.php");
+        header("location: ../index.html");
     }
 ?>
 <!DOCTYPE html>

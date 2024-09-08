@@ -2,7 +2,7 @@
 session_start();
 if (isset($_SESSION['nome'])) {
 } else {
-    header("location: login.php");
+    header("location: ../index.html");
 }
 ?>
 
